@@ -85,9 +85,9 @@ button {
     font-weight: bolder;
 }
 
-.illustration {
+.illustrations {
     display: flex;
-    justify-content: stretch;
+    justify-content: center;
     gap: 50px;
     margin-bottom: 100px;
 }
