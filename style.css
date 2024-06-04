@@ -8,7 +8,6 @@ body {
 }
 
 .header-container {
-    margin: auto;
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
@@ -71,4 +70,38 @@ button {
     color: #F9FAF8;
     padding: 8px 20px;
     font-weight: bold;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+}
+
+.illustration {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.item01, .item02,
+.item03, .item04 {
+    width: 200px;
+    text-align: center;
+}
+
+.gallery {
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 8px;
 }
